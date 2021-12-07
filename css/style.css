@@ -580,6 +580,10 @@ body {
       background-position: center;
    }
 
+   .page-header {
+      height: 140vh;
+   }
+
    .menu {
       text-align: center;
    }
@@ -599,7 +603,7 @@ body {
 
    .menu__btn {
       display: block;
-      position: absolute;
+      position: fixed;
       width: 30px;
       height: 20px;
       z-index: 3;
